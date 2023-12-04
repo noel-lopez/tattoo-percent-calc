@@ -43,8 +43,8 @@ function App() {
 
   return (
       <div className='flex flex-col items-center gap-5 w-screen h-screen'>
-        <h1 className='mt-24 mb-8'>Calculadora 70-30</h1>
-        <h2>Tú: {myMoney}€</h2>
+        <h1 className='mt-24 mb-8'>Calculadora 70-30%</h1>
+        <h2>Ganancias: {myMoney}€</h2>
         <h2>Estudio: {studioMoney}€</h2>
         <div className='flex gap-5 mt-8'>
           <input
